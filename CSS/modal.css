@@ -47,9 +47,17 @@
 
 .modal_window_content {
     position: relative;
+    min-width: 320px;
     opacity: 0;
     transition: all 0.8s ease 0s;
     transform: translate(0px, -100%);
+    z-index: 0;
+
+}
+
+.modal_window_content img {
+    max-width: 100%;
+    height: auto;
 }
 
 .modal_window_close {
@@ -59,4 +67,5 @@
     position: absolute;
     right: 20px;
     top: 20px;
+    z-index: 1;
 }
