@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.text {
+    text-align: center;
+}
+
 .galery {
     display: flex;
     justify-content: space-between;
